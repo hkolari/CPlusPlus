@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\17-01-2017">
+      <UniqueIdentifier>{9403b52a-1f65-40e9-ba46-3b51aeb29bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\19-01-2017">
+      <UniqueIdentifier>{092cf433-d98f-4033-ba3b-0c78c1c951e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\19-01-2017">
+      <UniqueIdentifier>{a2b55bb8-991d-4c40-8cf8-f07856c2a206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\19-01-2017">
+      <UniqueIdentifier>{15907f4b-1a6d-4b59-863b-38c027d56836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\24-01-2017">
+      <UniqueIdentifier>{ebe93702-0f55-4c11-88ec-f18d014507bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\24-01-2017">
+      <UniqueIdentifier>{5d35c410-0785-47f5-bdd3-f74a26f76027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\26-01-2017">
+      <UniqueIdentifier>{eee77e20-7ae5-4265-96fc-04cb640225b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\26-01-2017">
+      <UniqueIdentifier>{b3d21c8a-8991-4139-b14c-6613d6fb1b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\02-02-2017">
+      <UniqueIdentifier>{1321741f-9975-4443-b03f-e732ffc51e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02-02-2017">
+      <UniqueIdentifier>{f3f3cbd1-a4d8-4ee2-ab81-b0ba4160a875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\09-02-2017">
+      <UniqueIdentifier>{36dd6eff-4152-4eec-bf62-c7355de7ef59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\09-02-2017">
+      <UniqueIdentifier>{f7b4d36c-5a27-4c3f-a210-d4248a1b8a65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="17-01-2017.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="19-01-2017.cpp">
+      <Filter>Source Files\19-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment8.cpp">
+      <Filter>Source Files\19-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment8student.cpp">
+      <Filter>Source Files\19-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendMenu.cpp">
+      <Filter>Source Files\24-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="Friend.cpp">
+      <Filter>Source Files\24-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendBook.cpp">
+      <Filter>Source Files\24-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendBookTest.cpp">
+      <Filter>Source Files\24-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="Dice.cpp">
+      <Filter>Source Files\26-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="DiceMain.cpp">
+      <Filter>Source Files\26-01-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="ArvMainOLD.cpp">
+      <Filter>Source Files\02-02-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonOLD.cpp">
+      <Filter>Source Files\02-02-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentOLD.cpp">
+      <Filter>Source Files\02-02-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Source Files\09-02-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files\09-02-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files\09-02-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\09-02-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dataAnimal2.txt">
+      <Filter>Resource Files\17-01-2017</Filter>
+    </Text>
+    <Text Include="data.txt">
+      <Filter>Resource Files\17-01-2017</Filter>
+    </Text>
+    <Text Include="dataAnimal.txt">
+      <Filter>Resource Files\17-01-2017</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="19-01-2017.h">
+      <Filter>Header Files\19-01-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment8.h">
+      <Filter>Header Files\19-01-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="Friend.h">
+      <Filter>Header Files\24-01-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendBook.h">
+      <Filter>Header Files\24-01-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="Dice.h">
+      <Filter>Header Files\26-01-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentOLD.h">
+      <Filter>Header Files\02-02-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonOLD.h">
+      <Filter>Header Files\02-02-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files\09-02-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Header Files\09-02-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files\09-02-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonRegister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
