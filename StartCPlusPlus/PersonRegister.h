@@ -18,6 +18,7 @@ private:
 
 public:
 	PersonRegister(int capacity = 3);
+	PersonRegister(const PersonRegister& origObj);
 	virtual ~PersonRegister();
 	void addStudent(string name, string mail, string studyProgramme);
 	void addEmployee(string name, string mail, string department, int salary);
