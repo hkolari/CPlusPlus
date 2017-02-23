@@ -55,6 +55,9 @@
     <Filter Include="Header Files\23-02-2017">
       <UniqueIdentifier>{67ddd448-df6e-43d2-bfb0-8f6fb187acc3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\23-02-2017\SingleFiles">
+      <UniqueIdentifier>{b64e6350-75be-49ca-9361-33ed51f60ca4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="17-01-2017.cpp">
@@ -111,6 +114,15 @@
     <ClCompile Include="PersonRegister.cpp">
       <Filter>Source Files\09-02-2017</Filter>
     </ClCompile>
+    <ClCompile Include="ClassTemplate.cpp">
+      <Filter>Source Files\23-02-2017</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchingMain.cpp">
+      <Filter>Source Files\23-02-2017\SingleFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SortingMain.cpp">
+      <Filter>Source Files\23-02-2017\SingleFiles</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="dataAnimal2.txt">
@@ -156,6 +168,9 @@
     </ClInclude>
     <ClInclude Include="PersonRegister.h">
       <Filter>Header Files\09-02-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\23-02-2017</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
