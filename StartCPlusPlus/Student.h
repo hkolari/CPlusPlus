@@ -15,6 +15,7 @@ public:
 	virtual ~Student();
 	string getStudyProgramme() const;
 	string toStringSpecific() const;
+	Student* clone() const;
 };
 
 #endif // ! STUDENT_H

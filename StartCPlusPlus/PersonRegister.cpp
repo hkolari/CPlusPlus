@@ -59,17 +59,19 @@ PersonRegister::PersonRegister(const PersonRegister& origObj)
 	Employee* anEmplPtr = nullptr;
 	for (int i = 0; i < origObj.nrOfPersons; i++)
 	{
-		aStudPtr = dynamic_cast<Student*>(origObj.persons[i]);
-		if (aStudPtr != nullptr) //Aha, en Student som ska återskapas!
-		{
-			this->persons[i] = new Student(*aStudPtr);
-			//this->persons[i] = new Student(aStudPtr->getName(), aStudPtr->getMail(), aStudPtr->getStudyProgramme);
-		}
-		else
-		{
-			anEmplPtr = dynamic_cast<Employee*>(origObj.persons[i]);
-			this->persons[i] = new Employee(*anEmplPtr);
-		}
+		this->persons[i] = origObj.persons[i]->clone(); //More effective than the one below. Less code and such.
+
+		//aStudPtr = dynamic_cast<Student*>(origObj.persons[i]);
+		//if (aStudPtr != nullptr) //Aha, en Student som ska återskapas!
+		//{
+		//	this->persons[i] = new Student(*aStudPtr);
+		//	//this->persons[i] = new Student(aStudPtr->getName(), aStudPtr->getMail(), aStudPtr->getStudyProgramme);
+		//}
+		//else
+		//{
+		//	anEmplPtr = dynamic_cast<Employee*>(origObj.persons[i]);
+		//	this->persons[i] = new Employee(*anEmplPtr);
+		//}
 	}
 }
 

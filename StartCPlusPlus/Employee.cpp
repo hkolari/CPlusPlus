@@ -48,3 +48,8 @@ string Employee::toStringSpecific() const
 {
 	return "Avdelning: " + this->department + "\nLön: " + to_string(this->salary) + "\n";
 }
+
+Employee* Employee::clone() const
+{
+	return new Employee(*this);
+}

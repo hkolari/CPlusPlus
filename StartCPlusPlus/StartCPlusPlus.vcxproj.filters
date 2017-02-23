@@ -49,6 +49,12 @@
     <Filter Include="Source Files\09-02-2017">
       <UniqueIdentifier>{f7b4d36c-5a27-4c3f-a210-d4248a1b8a65}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\23-02-2017">
+      <UniqueIdentifier>{0384ba90-cc93-46f8-a274-7e3c5586995f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\23-02-2017">
+      <UniqueIdentifier>{67ddd448-df6e-43d2-bfb0-8f6fb187acc3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="17-01-2017.cpp">
@@ -103,7 +109,7 @@
       <Filter>Source Files\09-02-2017</Filter>
     </ClCompile>
     <ClCompile Include="PersonRegister.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\09-02-2017</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -149,7 +155,7 @@
       <Filter>Header Files\09-02-2017</Filter>
     </ClInclude>
     <ClInclude Include="PersonRegister.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\09-02-2017</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

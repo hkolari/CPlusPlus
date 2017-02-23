@@ -17,6 +17,7 @@ public:
 	string getDepartment() const;
 	int getSalary() const;
 	string toStringSpecific() const;
+	Employee* clone() const;
 
 };
 

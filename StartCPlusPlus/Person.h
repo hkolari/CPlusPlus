@@ -20,6 +20,7 @@ public:
 	string getMail() const;
 	string toString() const;
 	virtual string toStringSpecific() const = 0; //Pure virtual
+	virtual Person* clone() const = 0; //Pure virtual
 };
 
 

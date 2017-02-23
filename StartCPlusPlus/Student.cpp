@@ -33,3 +33,8 @@ string Student::toStringSpecific() const
 {
 	return "Studieprogram: " + this->studyProgramme + "\n";
 }
+
+Student* Student::clone() const
+{
+	return new Student(*this);
+}
