@@ -1,5 +1,5 @@
 #include "Stack.h"
-
+#include <ctime>
 #include <iostream>
 #include <string>
 
@@ -56,9 +56,11 @@ int main()
 	sort(anArray, 0, cap - 1);
 	for (int i = 0; i < cap; i++)
 	{
-		cout << anArray[i] << "";
+		cout << anArray[i] << endl;
 	}
 	cout << endl;
+
+	getchar();
 	return 0;
 }
 
@@ -97,7 +99,7 @@ int sum(int start, int end)
 }
 
 template<typename T>
-partition(T theArray[], int start, int end)
+int partition(T theArray[], int start, int end)
 {
 	T pivotValue = theArray[start];
 	int pivotPosition = start;
@@ -105,7 +107,7 @@ partition(T theArray[], int start, int end)
 	{
 		if (theArray[i] < pivotValue)
 		{
-			swapThem(theArray[i], theArray(pivotPosition + 1));
+			swapThem(theArray[i], theArray[pivotPosition + 1]);
 			swapThem(theArray[pivotPosition + 1], theArray[pivotPosition]);
 			pivotPosition++;
 		}
@@ -114,15 +116,20 @@ partition(T theArray[], int start, int end)
 }
 
 template<typename T>
-void swapThem(T& item1, T& item)
+void swapThem(T& item1, T& item2)
 {
 	T temp = item1;
 	item1 = item2;
-	item 2 = temp;
+	item2 = temp;
 }
 template<typename T>
 void sort(T theArray[], int start, int end)
 {
-	int privotPos = partition(theArray, start, end);
+	if (start < end)
+	{
+		int pivotPos = partition(theArray, start, end);
+		sort(theArray, start, pivotPos - 1);
+		sort(theArray, pivotPos + 1, end);
+	}
 }
 
