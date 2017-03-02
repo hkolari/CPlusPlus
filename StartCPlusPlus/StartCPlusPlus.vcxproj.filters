@@ -58,6 +58,12 @@
     <Filter Include="Source Files\23-02-2017\SingleFiles">
       <UniqueIdentifier>{b64e6350-75be-49ca-9361-33ed51f60ca4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\02-03-2017">
+      <UniqueIdentifier>{5f40a944-483c-4ec6-8af7-5b2da6f47bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02-03-2017">
+      <UniqueIdentifier>{bc986e5d-5b6c-4740-b1de-15f25f6e5ee3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="17-01-2017.cpp">
@@ -123,6 +129,9 @@
     <ClCompile Include="SortingMain.cpp">
       <Filter>Source Files\23-02-2017\SingleFiles</Filter>
     </ClCompile>
+    <ClCompile Include="mainStack.cpp">
+      <Filter>Source Files\02-03-2017</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="dataAnimal2.txt">
@@ -171,6 +180,12 @@
     </ClInclude>
     <ClInclude Include="Vector.h">
       <Filter>Header Files\23-02-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="IStack.h">
+      <Filter>Header Files\02-03-2017</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\02-03-2017</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
